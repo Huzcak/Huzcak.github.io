@@ -45,9 +45,9 @@
 // console.log(p)
 
 function sayGreeting(){
-  let  Name = parseInt(document.getElementById("yourName").value);
-  let Name2 = parseInt(document.getElementById("yourName2").value);
-   let hasil = (Name + Name2) / 2;
+  let  yourName = parseInt(document.getElementById("yourName").value);
+  let yourName2 = parseInt(document.getElementById("yourName2").value);
+   let hasil = (yourName + yourName2) / 2;
    let hasil2 = document.getElementById('hasil')
    hasil3 = hasil2.innerHTML = "hasil rata rata nilai anda :"+ hasil
 }
