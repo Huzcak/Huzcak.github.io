@@ -1,14 +1,40 @@
 body{
-    display: flex;
-    text-align: center;
-    justify-content: center;
+    
+    
     height: 100%;
+    
+    
 }
 .container{
     display: flex;
+    justify-content: space-between;
+    
+    
+}
+.container1{
+    display: flex;
     flex-direction: column;
-    width: 30%;
+    margin: 0px;
+    padding: 0px;
+}
+h3{
+    margin-bottom: 0px;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
 }
 #Name2{
     margin-bottom: 5px;
+}
+.klik{
+    position: absolute;
+    top: 100px;
+    
 }
